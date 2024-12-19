@@ -1,0 +1,30 @@
+.container-fluid{
+    /* background-color: aqua; */
+    width: 400px;
+    height: auto;
+}
+.d-flex{
+    width: 1000px;
+    height: auto;  
+}
+#logo{
+    width: 70px;
+    height: 50px;
+}
+.sidebar{
+    background-color: rgb(255, 191, 226);
+    width: 450px;
+    height: 1000px;  
+}
+.navbar{
+    color: rgb(255, 144, 196);
+}
+#adminUser{
+    height: 200px;
+}
+#menu{
+    width: 400px;
+}
+.mainContainer{
+    display: flex;
+}
