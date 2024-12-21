@@ -10,6 +10,7 @@
 #logo{
     width: 70px;
     height: 50px;
+    
 }
 .sidebar{
     background-color: rgb(255, 191, 226);
@@ -27,4 +28,114 @@
 }
 .mainContainer{
     display: flex;
+}
+#database{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+#welcome{
+    /* background-color: beige; */
+    height: px;
+    display: flex;
+    justify-content: center;
+}
+#wellness{
+    /* background-color: rgb(219, 219, 22); */
+    height: 450px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+#data{
+    /* background-color: rgb(255, 118, 214); */
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+
+}
+#introduction{
+    width: 300px;
+}
+#analytics{
+/* background-color: bisque; */
+width: 850px;
+height: 450px;
+border-radius: 20px;
+/* display: flex;
+justify-content: space-around; */
+}
+#calender{
+    background-color: rgb(219, 219, 22);
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+}
+iframe{
+    height: 350px;
+    width: 350px;
+    border-radius: 25px;
+}
+.progress-bar{
+    color: rgb(165, 17, 17);
+    background-color: rgb(41, 189, 132);
+}
+h1{
+    color: white;
+}
+#Nutrition{
+    border-radius: 20px;
+    height: ;
+}
+#chart{
+    height: 450px;
+}
+#pChart{
+    color: black;
+}
+h2{
+    color: black;
+}
+#Good{
+    color: rgb(255, 154, 209);
+    font-size: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#foodie{
+    /* padding-right: 15px; */
+    border-radius: 20px;
+    width: 275px;
+    margin: right;
+    
+}
+#logMeal{
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 143, 80);
+    width: 10px;
+}
+#subheader{
+    color: black;
+}
+#progBarText{
+    color: white;
+    font-size: 15px;
+
+}
+.progress{
+    height: 30px;
+    
+    accent-color: blue;
+}
+#menuButton{
+    width: 400px;
+}
+.aria-label{
+    color: black;
 }

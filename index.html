@@ -16,12 +16,14 @@
       <a class="navbar-brand" href="#">
         <img id="logo" src="https://ih1.redbubble.net/image.532883015.6972/st,small,507x507-pad,600x600,f8f8f8.u2.jpg" alt="" width="30" height="24">
       </a>
+      <br>
+      <br>
 
       <a class="nav-link active" aria-current="page" href="#">Active</a>
         <a class="nav-link" href="#">Link</a>
         <a class="nav-link" href="#">Link</a>
         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-    </div>
+    </div> 
 
 
         <nav class="navbar bg-body-tertiary">
@@ -46,26 +48,150 @@
                 <img id="adminUser" src="../AdminUserWeb/pictures/profile picture- kayla.png" alt="">
                 <h1>Admin user</h1>
                 <br>
-                <button id="menu" type="button" class="btn btn-warning">Home</button>
+                <button id="menu" type="button" class="btn btn-warning">Dashboard</button>
                 <br>
                 <br>
-                <button id="menu" type="button" class="btn btn-warning">Settings</button>
+                <!-- Example single danger button -->
+                    <div class="btn-group">
+                        <button id="menu" type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Settings
+                          </button>
+                        <ul id="menuButton" class="dropdown-menu" width>
+                        <li><a class="dropdown-item" a href="../UserProfile/index.html">Edit Profile</a></li>
+                        
+                        </ul>
+                    </div>
                 <br>
                 <br>
-                <button id="menu" type="button" class="btn btn-warning">Data</button>
+                <button id="menu" type="button" class="btn btn-warning">Progress</button>
                 <br>
                 <br>
-                <button id="menu" type="button" class="btn btn-warning">sales</button>
+                <button id="menu" type="button" class="btn btn-warning">Schedule</button>
                 <br>
                 <br>
-                <button id="menu" type="button" class="btn btn-warning">help</button>
+                <button id="menu" type="button" class="btn btn-warning">Meal Plan</button>
+                <br>
+                <br>
+                <button id="menu" type="button" class="btn btn-warning">Wellness Goals</button>
               </div>
             </div>
           </div>
     </div>
+<!-- dashboard -->
+    <div id="database" class="container">
+        <!-- Previous markup -->
+         <h1 id="Good">Welcome back, Kayla!</h1>
+         <h1 id="subheader">You are so close to reaching your goals. </h1>
+         <br>
+<!-- <div class="progress">
+    <! Previous markup -->
+        <div class="progress">
+             <div id="progBarText" class="progress-bar" role="progressbar" aria-label="Segment one" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">In Progress</div>
+            <div id="progBarText" class="progress-bar bg-success" role="progressbar" aria-label="Segment two" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">Completed</div>
+            <div id="progBarText" class="progress-bar bg-info" role="progressbar" aria-label="Segment three" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">Upcoming</div>
+         </div>
+         <br>
 
-    <div class="database"></div>
+<!-- section inside  -->
+        <div id="welcome" class="container">
+            <div id="data" class="container">
+                <img id="foodie" src="../AdminUserWeb/pictures/header.png" alt="">
+            
+                <h2>Nutrition</h2>
+            
+                <!-- Example single danger button -->
+                    <div class="btn-group">
+                        <button id="logMeal" type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Log Meal
+                        </button>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Breakfast</a></li>
+                        <li><a class="dropdown-item" href="#">Lunch</a></li>
+                        <li><a class="dropdown-item" href="#">Dinner</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Snack</a></li>
+                        </ul>
+                    </div>
+            </div>
+            
+            <div id="data" class="container">
+                <img id="foodie" src="../AdminUserWeb/pictures/header (1).png" alt="">
+                <h2>Workout</h2>
+                <div class="btn-group">
+                    <button id="logMeal" type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Log Workout
+                    </button>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Pilates Session</a></li>
+                    <li><a class="dropdown-item" href="#">Yoga Session</a></li>
+                    <li><a class="dropdown-item" href="#">Leg Day</a></li>
+                    <!-- <li><hr class="dropdown-divider"></li> -->
+                    <li><a class="dropdown-item" href="#">Upper Body & Abs</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="data" class="container">
+                <img id="foodie" src="../AdminUserWeb/pictures/4.png" alt="">
+                <h2>Wellness</h2>
+                <div class="btn-group">
+                    <button id="logMeal" type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Add Entry
+                    </button>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Grattitude Entry</a></li>
+                    <li><a class="dropdown-item" href="#">5-Minute Journal</a></li>
+                    <li><a class="dropdown-item" href="#">Selfcare Tracker</a></li>
+                    <!-- <li><hr class="dropdown-divider"></li> -->
+                    <li><a class="dropdown-item" href="#">Goal Setting</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            
+            <div id="data" class="container">
+                <img id="foodie" src="../AdminUserWeb/pictures/3.png" alt="">
+                <h2>Productivity</h2>
+                <div class="btn-group">
+                    <button id="logMeal" type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    To Do List
+                    </button>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Add Task</a></li>
+                    <li><a class="dropdown-item" href="#"></a></li>
+                    <li><a class="dropdown-item" href="#">Add Reminder</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div id="wellness" class="container">
+            <div id="analytics" class="container">
+                <h1 id="pChart">Wellness Analytics</h1>
+                <img id="chart" src="../AdminUserWeb/pictures/Untitled design (1).png" alt="">
+            </div>
+    
+            <div id="calender" class="container">
+                <div>
+                    <h1>Workout Routine</h1>
+                    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&src=a3lzc2llaS5rYXlAZ21haWwuY29t&src=ZDI3NjI5NzgyMDhjMjQwMDllMDhjODZkMzM5MDMxYmM4NzNjYTNjNTY4ZWE0NTZmOWFjNjMwMGMzZjU3MWJhOUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=MTFiMzkwZDk1MDM4NDZiOTE2NzA0MGYxZWRhMGJjMjE1ZmMzZjkwYTc5ZTY0NzcyODU0YWJkZGJlNTI4ZmFhY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=OTZiMDYyNWM1YjRmMGRlMGZmZjkxZjM1OWJkZTJhNTYwMjJhMzM5NDA4OTdiMGM4NzViNDBlNGI4MWZlNjk4MkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=OThkNDliOWM1M2YzYmVlMGU5YjU3NDA3NDc1YTQ3MTE3MWJkMTZkOGI2MjE3NzNiMjMyYTNlM2UxZjU0ZTdmOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=MGQ3NGNmNWQxMzdhNDIzOTYxYzk1ZmYyZDNlYjIyMTU2MWEyNDgwY2YzNGZmNmQ0MmVlZmVjZjQxYjNjYzZhM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=MTQ0YzhmNTZkODA0NjA3MGFkMWNmZmRkYzg0OTg4MzQ5Y2M5ZmU2YTVlYzZmNzkwZDQ4ZjA0YWRmN2RkZDAxY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=NTRkNjk3ZDYzNjVhNzkyZDE5MWQyYmM0ODY3ZDg3YjJiYmQyNWMxNzIxNjQzOTZjMzBlYmU1YWQxMzNhNzdkNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=NWYyMmY0MzA5NjZjMWZkMmE2YmJlMTVhMmE4N2E2ODc2YjYyYjQxNjRjZmNlZTM2YWU1Zjc5NTM3ZDAwY2YzM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=N2QyMzAyMDI3YzdhYmExZTllNTcyMzM2NDcxN2QwYjdkMDFkYzE0YTlmMDQ4OGIwYmQwNjY5ZTdmZTQxYTdiNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=NDQ1OWMyYWE2NDg1NTkyZjQzODZiOGFjODM5ZmE0YjQ4MTdkMzNiNDA5OWMyMTJhYjA4MWQ0MDdiZGYwZDY2OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=NmM0MmNmYzA3YmRkYTQ0Y2JkNDUwYmJjNGY3YzY4NWI5MjU0YmNmYWJlZmNmMDk3ZDBkNjhiZGVkOGViOGVlNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=NjYyN2I4NjQ3ZTgxMzkwNDRhYjZiNjM5M2VhZDA1NGYzNGI2NTljMTRlYjY5NDMyNzViYzdiNjU1ZjZiNWRlMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=NjZkNjEwZDA2NTk5ZDQ1YWYyZDZjOGM3NmM0Mzc0NDZkZTVhYjRkMmNiY2JiYzg1Y2ZjMmZlOTFhZTIwMmY4NkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZmFtaWx5MTU2NjExNzA1MTY1ODcxMTE0ODBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jbGFzc3Jvb20xMzUwMjI3OUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F6BF26&color=%230B8043&color=%23bf529b&color=%234285F4&color=%23AD1457&color=%230B8043&color=%23D50000&color=%23D81B60&color=%23F09300&color=%237CB342&color=%2349afc9&color=%239E69AF&color=%23D50000&color=%23cc77ae&color=%23F4511E&color=%237986CB&color=%230B8043&color=%23c26401" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
 </div>
+
 
 <!--  -->
 
